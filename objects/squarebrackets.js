@@ -33,3 +33,30 @@ const person = {
 
 
 
+//In JavaScript, you can use square bracket notation to dynamically set object properties. This allows you to use variables or expressions to set property names on an object at runtime, rather than specifying them directly in your code.
+
+
+//Here's an example:
+
+const obj = {};
+const propertyName = 'myProp';
+const propertyValue = 'myValue';
+
+obj[propertyName] = propertyValue;
+console.log(obj); // Output: { myProp: 'myValue' }
+
+  
+
+//In this example, we first create an empty object obj. We then define two variables, propertyName and propertyValue, and assign them the values 'myProp' and 'myValue', respectively.
+
+
+//Next, we use square bracket notation to set a new property on obj, using the propertyName variable as the property name and the propertyValue variable as the property value.
+
+
+//Finally, we log the obj object to the console to verify that the new property was set correctly.
+
+
+//Using square bracket notation to dynamically set object properties can be useful in situations where you don't know the property names or values ahead of time, such as when processing user input or data from an external API.
+
+
+
