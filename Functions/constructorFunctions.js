@@ -34,6 +34,6 @@ console.log(john.fullName()); // "John Doe"
 
 //In summary, function constructors in JavaScript are a way to create objects based on a given template or blueprint. The constructor function defines the properties and methods of the object, and each instance created from the constructor will inherit those properties and methods.
 
-
+// remember that the caps Person is only syntatctical sugar 
 
 
