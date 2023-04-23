@@ -60,3 +60,4 @@ console.log(obj); // Output: { myProp: 'myValue' }
 
 
 
+Object.defineProperty()
