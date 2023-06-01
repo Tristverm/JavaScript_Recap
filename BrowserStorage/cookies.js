@@ -97,6 +97,7 @@ Here's an example that demonstrates how to store multiple cookies using JavaScri
 
 ```javascript
 // Function to set multiple cookies
+
 function setMultipleCookies(cookies) {
   cookies.forEach((cookie) => {
     document.cookie = `${cookie.name}=${cookie.value}; expires=${cookie.expires}; path=${cookie.path}`;
